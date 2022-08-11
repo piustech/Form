@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_details"
+            android:textFontWeight="10"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:inputType="text" />
+    
+    </LinearLayout>
+    
+        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="First Name"
+            android:layout_marginTop="15dp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            android:autofillHints="text"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Last name"
+            android:layout_marginTop="15dp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            android:autofillHints=""
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint=" Street Address"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+        android:autofillHints="text"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Street Address line 2"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+        android:autofillHints="text"
+        android:inputType="text" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="City"
+            android:minHeight="48dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="text"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="State"
+            android:minHeight="48dp"
+            android:autofillHints="text"
+            android:layout_marginTop="15dp"
+            android:inputType="text" />
+            
+
+    </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="City"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            android:autofillHints="text"
+            android:inputType="text" />
+
+    <EditText
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number" />
+    
+    
+    
+    
+</LinearLayout>

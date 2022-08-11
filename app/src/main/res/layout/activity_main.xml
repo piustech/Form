@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_details"
+            android:textColorHint="@color/black"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:inputType="" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  >
+
+        <EditText
+            android:id="@+id/myFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/first_name"
+            android:layout_marginTop="15dp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            android:autofillHints="text"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/myLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/last_name"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            android:autofillHints=""
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/residential_address"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/street_address"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+        android:autofillHints="text"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/home_town"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/street_address_line_2"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+        android:autofillHints="text"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_state"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:autofillHints="text"
+            android:hint="@string/city"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="@string/state"
+            android:minHeight="48dp"
+            android:autofillHints="text"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zip_code"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/postal_zip_code"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            android:autofillHints="text"
+            android:inputType="text" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_no"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:layout_weight="3"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="phone"
+            android:inputType="number" />
+
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/submit" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+

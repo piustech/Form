@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First Name</string>
+    <string name="street_address_line_2">Street Address line 2</string>
+    <string name="street_address">Street Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="city_province">City/Province</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="postal_zip_code">Postal Zip Code</string>
+    <string name="full_name">Full Name *</string>
+    <string name="residential_address">Residential Address *</string>
+    <string name="home_town">Home Town *</string>
+    <string name="city_state">City/State</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="phone_no">Phone No</string>
+    <string name="submit">Submit</string>
+</resources>
